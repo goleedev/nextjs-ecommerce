@@ -42,4 +42,5 @@
 }
 .navlink span {
   display: flex;
+  cursor: pointer;
 }
