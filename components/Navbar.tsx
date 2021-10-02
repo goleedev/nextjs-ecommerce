@@ -25,7 +25,7 @@ const Navbar = () => {
       </h6>
       <ul className={styles.links}>
         <li className={styles.navlink}>
-          <Link href="/shop">New Releases</Link>
+          <Link href="/new-releases">New Releases</Link>
         </li>
         <li className={styles.navlink}>
           <Link href="/category/men">Men</Link>

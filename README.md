@@ -97,4 +97,6 @@ $ npm run dev
 
 ### getStaticProps
 
+### https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout
+
 &nbsp;

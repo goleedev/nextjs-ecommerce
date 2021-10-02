@@ -4,7 +4,7 @@ export default interface ProductType {
   product: string
   quantity?: number
   category: string
-  image: string
+  image?: string
   price: number
   freeShipping: boolean
 }
