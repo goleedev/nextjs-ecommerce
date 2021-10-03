@@ -3,9 +3,10 @@
     "baseUrl": ".",
     "paths": {
       "pages/*": ["./pages/*"],
+      "components/*": ["./components/*"],
       "state/*": ["./state/*"],
       "assets/*": ["./assets/*"],
-      "styles/*": ["./styles/*"],
+      "styles/*": ["./styles/*"]
     },
     "target": "ES6",
     "lib": ["dom", "dom.iterable", "esnext"],

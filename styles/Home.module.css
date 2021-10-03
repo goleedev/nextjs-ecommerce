@@ -1,12 +1,18 @@
 .container {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto;
-  padding: 20px 40px;
+  grid-template-columns: 274px 274px 274px 274px;
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+  grid-template-rows: 300px 300px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 40px;
 
   background-color: #fff;
   color: #444;
+}
+.container > * {
 }
 .spanningCol {
   grid-column: 1;

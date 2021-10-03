@@ -1,6 +1,6 @@
 # Plask FE Assignment
 
-> React, Next.js, Typescript, Sass/scss, Redux를 활용한 간단한 쇼핑몰 앱입니다.
+> React, Next.js, Typescript, Redux를 활용한 간단한 쇼핑몰 앱입니다.
 
 &nbsp;
 
@@ -79,6 +79,12 @@ $ npm run dev
 
 ## 문제 해결
 
+### Image inside Link
+
+wrap with a tags
+
+https://github.com/vercel/next.js/issues/20434
+
 &nbsp;
 
 ---
@@ -99,4 +105,12 @@ $ npm run dev
 
 ### https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout
 
+### 세자리 수 콤마 2. toLocaleString() 함수 이용하기
+
+### image path https://nextjs.org/docs/basic-features/static-file-serving
+
 &nbsp;
+
+## 아쉬운 점
+
+### Quantity

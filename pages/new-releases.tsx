@@ -1,10 +1,10 @@
 import ProductCard from 'components/ProductCard';
 import { getProducts } from 'pages/api/products';
-import ProductType from "types/product-type";
+import ProductType from 'types/product-type';
 import styles from 'styles/NewReleasesPage.module.css';
 
 interface INewReleasesPage {
-  products: ProductType[]
+  products: ProductType[];
 }
 
 const NewReleasesPage = ({ products }: INewReleasesPage) => {

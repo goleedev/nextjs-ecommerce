@@ -1,17 +1,17 @@
-import { useRouter } from 'next/router'
-import { NextPageContext } from 'next'
+import { useRouter } from 'next/router';
+import { NextPageContext } from 'next';
 
-import { getProductsByCategory } from 'pages/api/products/[category]'
-import ProductCard from 'components/ProductCard'
-import ProductType from "types/product-type";
-import styles from 'styles/NewReleasesPage.module.css'
+import { getProductsByCategory } from 'pages/api/products/[category]';
+import ProductCard from 'components/ProductCard';
+import ProductType from 'types/product-type';
+import styles from 'styles/NewReleasesPage.module.css';
 
 interface ICategoryPage {
-  products: ProductType[]
+  products: ProductType[];
 }
 
 const CategoryPage = ({ products }: ICategoryPage) => {
-  const router = useRouter()
+  const router = useRouter();
 
   return (
     <div className={styles.container}>
@@ -22,13 +22,13 @@ const CategoryPage = ({ products }: ICategoryPage) => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CategoryPage
+export default CategoryPage;
 
 export async function getServerSideProps(ctx: NextPageContext) {
-  const category = ctx.query.category
-  const products = await getProductsByCategory(category)
-  return { props: { products } }
+  const category = ctx.query.category;
+  const products = await getProductsByCategory(category);
+  return { props: { products } };
 }
