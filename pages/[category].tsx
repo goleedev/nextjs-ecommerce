@@ -24,9 +24,11 @@ const CategoryPage = ({ products }: ProductsType) => {
     }
   }, [isSorting.up, isSorting.down]);
 
+  const category = router.query.category?.toString();
+
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>{router.query.category}</h1>
+      <h1 className={styles.title}>{category?.split('-').join(' ')}</h1>
       <ul className={styles.filter}>
         <li className={isSorting.down ? styles.active : styles.inactive} onClick={() => setIsSorting({down: true, up: false})}>낮은 가격</li>
         <li className={isSorting.up ? styles.active : styles.inactive} onClick={() => setIsSorting({down: false, up: true})}>높은 가격</li>

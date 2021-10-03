@@ -33,3 +33,8 @@
 .card:hover .image {
   transform: scale(1.2);
 }
+@media (max-width: 1040px) {
+  .info div {
+    width: 100px !important;
+  }
+}

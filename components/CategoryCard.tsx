@@ -14,7 +14,7 @@ const CategoryCard = ({ image, name, description }: ICategoryCard) => {
   return (
     <div className={styles.card}>
       <Image src={image} alt={'category-image'} className={styles.image} placeholder="blur" />
-      <Link href={`/${name.toLowerCase()}`}>
+      <Link href={`/${name.replace(' ', '-').toLowerCase()}`}>
         <div className={styles.info}>
           <h3>{name}</h3>
           <div/>

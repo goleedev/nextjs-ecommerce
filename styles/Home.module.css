@@ -36,3 +36,14 @@
   grid-column: 4;
   grid-row: 2;
 }
+@media (max-width: 1040px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 0;
+  }
+  .container div {
+    width: 100%;
+  }
+}

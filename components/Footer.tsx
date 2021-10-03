@@ -1,7 +1,8 @@
-import styles from 'styles/Footer.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../assets/icon/logo.svg';
+
+import logo from 'assets/icon/logo.svg';
+import styles from 'styles/Footer.module.css';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

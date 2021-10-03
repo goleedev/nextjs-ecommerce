@@ -40,3 +40,15 @@
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 1040px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .contentRight ul {
+    margin: 15px 0;
+  }
+  .contentRight li {
+    margin-left: 0 !important;
+  }
+}
