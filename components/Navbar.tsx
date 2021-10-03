@@ -1,28 +1,34 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import { useSelector } from 'react-redux'
+import Link from 'next/link';
+import Image from 'next/image';
+import { useSelector } from 'react-redux';
 
-import { ReducerType } from 'state/cart.slice'
-import ProductType from 'types/product-type'
-import logo from 'assets/icon/logo.svg'
-import favoriteIcon from 'assets/icon/Heart.svg'
-import cartIcon from 'assets/icon/Cart.svg'
-import styles from 'styles/Navbar.module.css'
+import { ReducerType } from 'state/cart.slice';
+import ProductType from 'types/product-type';
+import logo from '../assets/icon/logo.svg';
+import favoriteIcon from '../assets/icon/Heart.svg';
+import cartIcon from '../assets/icon/Cart.svg';
+import styles from 'styles/Navbar.module.css';
+import React from 'react';
 
 const Navbar = () => {
-  const cart = useSelector<ReducerType, ProductType[]>((state: any) => state.cart)
+  const cart = useSelector<ReducerType, ProductType[]>(
+    (state: any) => state.cart
+  );
 
   const getItemsCount = () => {
-    return cart.reduce((accumulator, item) => accumulator + (item.quantity ?? 0), 0)
-  }
+    return cart.reduce(
+      (accumulator, item) => accumulator + (item.quantity ?? 0),
+      0
+    );
+  };
 
   return (
     <nav className={styles.navbar}>
-      <h6 className={styles.logo}>
-        <Link href="/">
-          <Image src={logo} alt={'logo'} />
-        </Link>
-      </h6>
+      <Link href="/">
+        <a>
+          <Image src={logo} alt={'logo'} className={styles.logo} />
+        </a>
+      </Link>
       <ul className={styles.links}>
         <li className={styles.navlink}>
           <Link href="/new-releases">New Releases</Link>
@@ -44,13 +50,14 @@ const Navbar = () => {
         <li className={styles.navlink}>
           <Link href="/cart">
             <span>
-              <Image src={cartIcon} alt={'cart'} width={24} height={24}/>{' '}({getItemsCount()})
+              <Image src={cartIcon} alt={'cart'} width={24} height={24} /> (
+              {getItemsCount()})
             </span>
           </Link>
         </li>
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

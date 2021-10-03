@@ -1,4 +1,4 @@
-import styles from 'styles/Header.module.css'
+import styles from 'styles/Header.module.css';
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
         <li>로그인</li>
       </ul>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
