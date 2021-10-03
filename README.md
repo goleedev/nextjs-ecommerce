@@ -76,7 +76,7 @@ $ npm run dev
 ### Actions
 - addToCart: 장바구니에 아이템을 추가하는 액션으로, cart state를 변경시킨다.
 - incrementQuantity: 장바구니에 추가된 아이템 수량을 추가하는 액션으로, cart state를 변경시킨다.
-- decrementQuantity: 장바구니에 추가된 아이템 수량을 감소하는 액션으로, cart state를 변경시킨다.
+- decrementQuantity: 장바구니에 추가된 아이템 수량을 제거하는 액션으로, cart state를 변경시킨다.
 - removeFromCart: 장바구니에 아이템을 제거하는 액션으로, cart state를 변경시킨다.
 
 &nbsp;
@@ -104,7 +104,7 @@ $ npm run dev
 
 ### 아이템 가격 순 필터링 기능
 
-아이템을 낮은 가격과 높은 가격 순으로 필터링 할 수 있습니다.
+아이템을 낮은 가격과 높은 가격 순으로 필터링 할 수 있다.
 
 |낮은 가격 순|높은 가격 순|
 |---|---|
@@ -127,6 +127,9 @@ $ npm run dev
 
 ### 아이템 수량 (quantity) 조절 기능
 
+장바구니에 이미 추가된 아이템에 대해 수량을 추가/제거할 수 있다.
+
+<img width="250" alt="web5" src="https://user-images.githubusercontent.com/52603436/135760779-c003b598-bd72-4cba-b482-b771b8536f45.png">
 
 &nbsp;
 
