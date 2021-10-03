@@ -1,14 +1,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import React from 'react';
 import { useSelector } from 'react-redux';
 
 import { ReducerType } from 'state/cart.slice';
 import ProductType from 'types/product-type';
-import logo from '../assets/icon/logo.svg';
-import favoriteIcon from '../assets/icon/Heart.svg';
-import cartIcon from '../assets/icon/Cart.svg';
+import logo from 'assets/icon/logo.svg';
+import favoriteIcon from 'assets/icon/Heart.svg';
+import cartIcon from 'assets/icon/Cart.svg';
 import styles from 'styles/Navbar.module.css';
-import React from 'react';
 
 const Navbar = () => {
   const cart = useSelector<ReducerType, ProductType[]>(
@@ -34,13 +34,13 @@ const Navbar = () => {
           <Link href="/new-releases">New Releases</Link>
         </li>
         <li className={styles.navlink}>
-          <Link href="/category/men">Men</Link>
+          <Link href="/men">Men</Link>
         </li>
         <li className={styles.navlink}>
-          <Link href="/category/women">Women</Link>
+          <Link href="/women">Women</Link>
         </li>
         <li className={styles.navlink}>
-          <Link href="/category/kids">Kids</Link>
+          <Link href="/kids">Kids</Link>
         </li>
       </ul>
       <ul className={styles.icons}>

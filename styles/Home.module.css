@@ -12,8 +12,6 @@
   background-color: #fff;
   color: #444;
 }
-.container > * {
-}
 .spanningCol {
   grid-column: 1;
   grid-row: 1 / 4;

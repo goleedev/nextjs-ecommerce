@@ -4,7 +4,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart } from 'state/cart.slice';
 import { ReducerType } from 'state/cart.slice';
 import ProductType from 'types/product-type';
-import trashIcon from '../assets/icon/Trash.svg';
+import image from 'assets/image/7.png'
+import trashIcon from 'assets/icon/Trash.svg';
 import styles from 'styles/CartPage.module.css';
 
 const CartPage = () => {
@@ -35,7 +36,7 @@ const CartPage = () => {
                 <div key={index} className={styles.item}>
                   <div className={styles.image}>
                     <Image
-                      src={item.image ?? ''}
+                      src={image}
                       alt={'product-image'}
                       width={'100%'}
                       height={'100%'}

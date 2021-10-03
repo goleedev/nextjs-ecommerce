@@ -1,8 +1,7 @@
 import Image from 'next/image';
-import { useDispatch } from 'react-redux';
 
-import { addToCart } from 'state/cart.slice';
 import ProductType from 'types/product-type';
+import image from 'assets/image/7.png'
 import styles from 'styles/ProductCard.module.css';
 
 interface IProductCard {
@@ -10,20 +9,18 @@ interface IProductCard {
 }
 
 const ProductCard = ({ product }: IProductCard) => {
-  const dispatch = useDispatch();
-
   return (
-    <div>
-      <Image src={product.image ?? ''} height={300} width={220} />
+    <div className={styles.card}>
+      <Image
+        src={image}
+        alt={'product-image'}
+        width={'100%'}
+        height={'100%'}
+        placeholder={'blur'}
+      />
+      <p className={styles.shipping}>{product.freeShipping ? '무료배송' : '유료배송'}</p>
       <h4 className={styles.title}>{product.product}</h4>
-      <h5 className={styles.category}>{product.category}</h5>
-      <p>$ {product.price}</p>
-      <button
-        onClick={() => dispatch(addToCart(product))}
-        className={styles.button}
-      >
-        Add to Cart
-      </button>
+      <p className={styles.price}><span>50%</span><span>{product.price.toLocaleString('ko-KR')}</span></p>
     </div>
   );
 };
