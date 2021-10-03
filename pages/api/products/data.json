@@ -3,7 +3,6 @@
     "id": 1,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "men",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100,
     "freeShipping": true
   },
@@ -11,7 +10,6 @@
     "id": 2,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "women",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -19,15 +17,13 @@
     "id": 3,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
-    "price": 100000,
+    "price": 1000,
     "freeShipping": true
   },
   {
     "id": 4,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -35,7 +31,6 @@
     "id": 5,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -43,7 +38,6 @@
     "id": 6,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -51,7 +45,6 @@
     "id": 7,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -59,15 +52,13 @@
     "id": 8,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
   {
     "id": 9,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
-    "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
+    "category": "new-releases",
     "price": 100000,
     "freeShipping": true
   },
@@ -75,7 +66,6 @@
     "id": 10,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -83,7 +73,6 @@
     "id": 11,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -91,7 +80,6 @@
     "id": 12,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -99,7 +87,6 @@
     "id": 13,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -107,7 +94,6 @@
     "id": 14,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -115,7 +101,6 @@
     "id": 15,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -123,7 +108,6 @@
     "id": 16,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -131,7 +115,6 @@
     "id": 17,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -139,7 +122,6 @@
     "id": 18,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -147,7 +129,6 @@
     "id": 19,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -155,7 +136,6 @@
     "id": 20,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -163,7 +143,6 @@
     "id": 21,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -171,7 +150,6 @@
     "id": 22,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -179,7 +157,6 @@
     "id": 23,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -187,7 +164,6 @@
     "id": 24,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -195,7 +171,6 @@
     "id": 25,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -203,7 +178,6 @@
     "id": 26,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -211,7 +185,6 @@
     "id": 27,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -219,7 +192,6 @@
     "id": 28,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -227,7 +199,6 @@
     "id": 29,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   },
@@ -235,7 +206,6 @@
     "id": 30,
     "product": "캐보트 여아 여름 유니콘 원피스 2가지 옵션",
     "category": "kids",
-    "image": "https://imgur.com/3CF1UhY.png",
     "price": 100000,
     "freeShipping": true
   }
