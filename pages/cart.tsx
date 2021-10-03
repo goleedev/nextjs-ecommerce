@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { removeFromCart } from 'state/cart.slice';
+import {decrementQuantity, incrementQuantity, removeFromCart} from 'state/cart.slice';
 import { ReducerType } from 'state/cart.slice';
 import ProductType from 'types/product-type';
 import image from 'assets/image/7.png';
@@ -57,6 +57,9 @@ const CartPage = () => {
                     </p>
                   </div>
                   <div className={styles.buttons}>
+                    <button onClick={() => dispatch(decrementQuantity(item))}>
+                      -
+                    </button>
                     <button onClick={() => dispatch(removeFromCart(item))}>
                       <Image
                         src={trashIcon}
@@ -64,6 +67,10 @@ const CartPage = () => {
                         width={24}
                         height={24}
                       />
+                    </button>
+
+                    <button onClick={() => dispatch(incrementQuantity(item))}>
+                      +
                     </button>
                   </div>
                 </div>

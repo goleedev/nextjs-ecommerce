@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { getProductsByCategory } from 'pages/api/products/[category]';
 import ProductCard from 'components/ProductCard';
 import ProductsType from 'types/products-type';
-import { sortByPriceAscending, sortByPriceDescending } from 'utils/filter';
+import { sortByPriceAscending, sortByPriceDescending } from '../util/filter';
 import styles from 'styles/ProductPage.module.css';
 
 const CategoryPage = ({ products }: ProductsType) => {
