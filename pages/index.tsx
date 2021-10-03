@@ -18,32 +18,16 @@ const HomePage = () => {
         />
       </div>
       <div className={styles.box2}>
-        <CategoryCard
-          image={category2}
-          name="Men"
-          description="남성 상품"
-        />
+        <CategoryCard image={category2} name="Men" description="남성 상품" />
       </div>
       <div className={styles.box3}>
-        <CategoryCard
-          image={category3}
-          name="Women"
-          description="여성 상품"
-        />
+        <CategoryCard image={category3} name="Women" description="여성 상품" />
       </div>
       <div className={styles.box4}>
-        <CategoryCard
-          image={category4}
-          name="Kids"
-          description="어린이 상품"
-        />
+        <CategoryCard image={category4} name="Kids" description="어린이 상품" />
       </div>
       <div className={styles.spanningRow}>
-        <CategoryCard
-          image={category5}
-          name="Sale"
-          description="세일 살품"
-        />
+        <CategoryCard image={category5} name="Sale" description="세일 살품" />
       </div>
       <div className={styles.box5}>
         <CategoryCard image={category6} name="Upcoming" description="준비 중" />

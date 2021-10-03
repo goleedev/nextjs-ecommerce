@@ -4,4 +4,3 @@ module.exports = {
     domains: ['localhost:3000'],
   },
 };
-

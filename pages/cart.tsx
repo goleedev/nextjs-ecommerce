@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart } from 'state/cart.slice';
 import { ReducerType } from 'state/cart.slice';
 import ProductType from 'types/product-type';
-import image from 'assets/image/7.png'
+import image from 'assets/image/7.png';
 import trashIcon from 'assets/icon/Trash.svg';
 import styles from 'styles/CartPage.module.css';
 

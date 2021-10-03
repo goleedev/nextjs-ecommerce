@@ -5,8 +5,9 @@ export default class CustomDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="theme-color" content="rgb(53, 54, 58)"/>
-          <meta charSet="utf-8"/>
+          <title>ROUTER65</title>
+          <meta name="theme-color" content="rgb(53, 54, 58)" />
+          <meta charSet="utf-8" />
         </Head>
         <body>
           <Main />

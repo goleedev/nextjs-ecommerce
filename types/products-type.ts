@@ -1,5 +1,5 @@
-import ProductType from "./product-type";
+import ProductType from './product-type';
 
 export default interface ProductsType {
-	products: ProductType[];
+  products: ProductType[];
 }
