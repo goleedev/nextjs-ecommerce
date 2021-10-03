@@ -109,6 +109,9 @@ https://github.com/vercel/next.js/issues/20434
 
 ### image path https://nextjs.org/docs/basic-features/static-file-serving
 
+### CSS text-decoration Property : line through
+https://www.w3schools.com/cssref/pr_text_text-decoration.asp
+
 &nbsp;
 
 ## 아쉬운 점
