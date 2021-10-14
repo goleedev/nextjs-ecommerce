@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Provider store={store}>
         <Head>
-          <title>Router65</title>
+          <title>NextJS</title>
           <link rel="icon" href="/public/favicon.ico" />
         </Head>
         <div className="wrapper">
