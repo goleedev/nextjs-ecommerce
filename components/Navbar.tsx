@@ -5,7 +5,6 @@ import { useSelector } from 'react-redux';
 
 import { ReducerType } from 'state/cart.slice';
 import ProductType from 'types/product-type';
-import logo from 'assets/icon/logo.svg';
 import favoriteIcon from 'assets/icon/Heart.svg';
 import cartIcon from 'assets/icon/Cart.svg';
 import styles from 'styles/Navbar.module.css';
@@ -29,8 +28,8 @@ const Navbar = () => {
     <>
       <nav className={styles.navbarWeb}>
         <Link href="/">
-          <a>
-            <Image src={logo} alt={'logo'} className={styles.logo} />
+          <a className={styles.brand}>
+            <h1>Nextjs</h1>
           </a>
         </Link>
         <ul className={styles.links}>

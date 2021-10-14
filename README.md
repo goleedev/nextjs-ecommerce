@@ -1,4 +1,4 @@
-# Plask FE Assignment
+# Nextjs Ecommerce App
 
 > React, Next.js, Typescript, Redux를 활용한 간단한 쇼핑몰 앱입니다.
 
@@ -43,7 +43,7 @@
 ## 웹 사이트
 
 👇 배포된 사이트는 하단의 링크에서 확인 가능합니다. <br/>
-> [https://plask-assignment.vercel.app/cart](https://plask-assignment.vercel.app/cart)
+> [https://nextjs-ecommerce-golee.vercel.app/](https://nextjs-ecommerce-golee.vercel.app/)
 
 &nbsp;
 
@@ -53,10 +53,10 @@
 
 ```
 # Repository 복제하기
-$ git clone https://github.com/goleedev/plask-assignment
+$ git clone https://github.com/goleedev/nextjs-ecommerce
 
 # Repository로 이동하기
-$ cd plask-assignment
+$ cd nextjs-ecommerce
 
 # Dependencies 설치하기
 $ npm install
