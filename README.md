@@ -43,7 +43,7 @@
 ## 웹 사이트
 
 👇 배포된 사이트는 하단의 링크에서 확인 가능합니다. <br/>
-> [https://nextjs-ecommerce-golee.vercel.app/](https://nextjs-ecommerce-golee.vercel.app/)
+> [https://nextjs-ecommerce-golee.vercel.app/](https://nextjs-ecommerce-sandy.vercel.app/)
 
 &nbsp;
 
